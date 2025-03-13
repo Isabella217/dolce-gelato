@@ -1,0 +1,87 @@
+nav ul li a{
+    font-size: larger;
+    padding-top: 20px;
+    
+}
+/* label color */
+.input-field label {
+    color: #e53935;
+    
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #000;
+    
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #000;
+  }
+
+.cadastro{
+    background-image:url("../Imagens/sorvete-de-baunilha-destaque.webp");
+   padding-bottom: 45px;
+}
+
+.contato{
+    background-image: url("../Imagens/bnn-receita.jpg");
+    padding-bottom: 45px;
+}
+
+.contato-logo{
+  margin: 40px;
+
+}
+form h1{
+    font-size: 50px;
+    color:#e53935;
+}
+ /*como mudar cor do icone depois que for selecionado?*/
+.produtos-titulo{
+  font-size: 40px;
+  color: #e53935;
+  margin-left: 20px;
+ 
+}
+.Destaques{
+  font-size: 40px;
+  color: #e53935;
+  margin-left: 20px;
+  
+}
+.back{
+  background-color:rgb(255, 241, 216);
+}
+.brand-logo{
+  margin: 25px;
+margin-top: 18px;
+}
+.imag{
+  margin-left: 40px;
+}
+.logo-face{
+  float:right;
+}
+.Destaques1{
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  margin-left: 190px;
+margin-top: 15px;
+padding-top: 20px;
+padding-bottom: 5px;
+}

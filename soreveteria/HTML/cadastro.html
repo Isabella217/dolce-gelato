@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolce_Gelato#Main</title>
+
+    <link rel="stylesheet" href="./css/reset2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    
+
+    <link rel="stylesheet" href="../css/reset2.css">
+    <link rel="stylesheet" href="../css/personalizar.css">
+
+
+</head>
+<body>
+
+    <header>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo"><img src="../Imagens/escrita da logo2.png" width="130px" height="30px"/></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li><!--Email-->
+            <li><a href="contato.html">Contato</a></li><!--Local, numero telefone instagram e facebook-->
+          </ul>
+        </div>
+      </nav>
+
+
+</header>
+
+<main class="cadastro row s12">
+  
+  <div class="row">
+    <form class="col s6 text-red lighten-3">
+      <br/><h1>Cadastro:</h1><br/><br/>
+      <div class="row">
+        <div class="input-field col s12">
+          <input  id="name" type="text" class="validate">
+          <label for="first_name">Nome Completo:</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email:</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Senha:</label>
+        </div>
+      </div>
+
+    
+        
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="textarea1" type="text" class="materialize-textarea"></textarea>
+              <label for="textarea1">Mensagem</label>
+            </div>
+          </div>
+       
+      
+
+      <button class="btn waves-effect waves-light red" type="submit" name="action">Enviar
+        <i class="material-icons right">send</i>
+      </button>
+
+    </form>
+  </div>
+</main>
+
+  <footer>
+    <div class="card-panel red darken-1"> Copyright (c) 2023 Portfólio de Isabella Santos</div>
+  </footer>      
+      
+      
+     
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.sidenav').sidenav();
+        $('.tabs').tabs();
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+    });
+ 
+    $(document).ready(function() {
+    M.updateTextFields();
+    });
+
+    $('#textarea1').val('New Text');
+  M.textareaAutoResize($('#textarea1'));
+         
+</script>
+
+</body>
+</html>
